@@ -1,0 +1,142 @@
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: #ffbd84;
+    color: black;
+    height: 150px;
+}
+.container {
+    width: none;
+    margin:0 none;
+}
+.footer {
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 50px 30px;
+    font-family: 'bebas', sans-serif;
+}
+.header{
+    text-align: center;
+    background-color: orange;
+    padding: 20px 0;
+}
+.header-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-list li {
+    float: right;
+    padding: 45px 50px;
+}
+.header-list a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.header-list a:hover{
+    color: #f4f4f4;
+}
+.main {
+    padding: 50px 80px;
+}
+.copy-container h1 {
+    font-size: 100px;
+    font-family: 'bebas', sans-serif;
+}
+.copy-container h2 {
+    font-size: 40px;
+    margin-top: -2.5rem;
+    font-family: "Adorable",sans-serif;
+}
+.copy-container span {
+    color: coral;
+}
+.contents {
+    height: 480px;
+    margin-top: 100px;
+}
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    font-family: "bodonitown", sans-serif;
+}
+.contents-item {
+    float: left;
+    margin-right: 210px;
+    width: 10px;
+    border: 3px solid #fff;
+}
+section {
+    padding: 0px 0;
+}
+section h3 {
+    text-align: left;
+    padding: 1px;
+    color: rgb(4, 120, 116);
+    margin-bottom: 10px;
+}
+.detail {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+@media screen and (max-width: 768px){
+    body {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    .header, .footer {
+        text-align: center;
+    }
+    .content {
+        padding: 10px;
+    }
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer {
+        padding: 30px 0;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: burlywood;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.button:hover {
+    background-color: skyblue;
+}
